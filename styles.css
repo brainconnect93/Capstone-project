@@ -46,6 +46,51 @@ body {
   transition: 0.3s ease;
 }
 
+.hamburger {
+  border: none;
+  background: transparent;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.bar {
+  height: 5px;
+  background: #272a31;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.hamburger .bar:nth-child(1) {
+  top: 10%;
+}
+
+.hamburger .bar:nth-child(2) {
+  top: 50%;
+}
+
+.hamburger .bar:nth-child(3) {
+  top: 90%;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: rotate(-45deg);
+  top: 50%;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: rotate(45deg);
+  top: 50%;
+}
+
 .head-container {
   background-image: url(images/confer1.jpg);
   background-repeat: no-repeat;
@@ -96,26 +141,7 @@ body {
   font-size: 15px;
   text-align: start;
   align-items: center;
-}
-
-.nav-dir {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.nav-menu {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin-left: 37%;
-}
-
-.nav-menu li {
-  display: flex;
-  flex-direction: row;
-  margin-right: 50px;
-  margin-top: 3.3%;
+  transition: 1s all ease-in-out;
 }
 
 .event a {
@@ -140,6 +166,30 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 15px;
   text-align: center;
+}
+
+.nav-logo a:hover {
+  color: #ec523c;
+}
+
+.nav-dir {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 37%;
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  margin-top: 3.3%;
 }
 
 .nav-menu li a:hover {
@@ -468,7 +518,6 @@ em {
   margin-top: 30px;
 }
 
-
 /* the about html file mobile styling */
 
 .about-text {
@@ -580,6 +629,14 @@ DESKTOP VERSION
     display: block;
   }
 
+  .header ul li {
+    transition: 0.2s ease-out;
+  }
+
+  .header ul li:hover {
+    color: #ec5242;
+  }
+
   .head-container {
     background-image: url(images/confer1.jpg);
     background-repeat: no-repeat;
@@ -588,6 +645,10 @@ DESKTOP VERSION
     justify-content: space-evenly;
     flex-direction: column;
     height: 100%;
+  }
+
+  .hamburger {
+    display: none;
   }
 
   .head-image {
@@ -619,9 +680,13 @@ DESKTOP VERSION
     margin: 15px 0;
   }
 
+  .nav-menu li a {
+    transition: 0.3s all ease-in-out;
+  }
+
   .nav-menu li a:hover {
     color: #ec5242;
-    border-bottom: 1px dashed rgba(236, 82, 66, 1);
+    text-decoration: underline;
   }
 
   /* introduction */
