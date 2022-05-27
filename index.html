@@ -6,16 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Capstone Project</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d6cd3c7604.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="head-container">
+        <header class="header">
+            <ul id="header-list">
+                <li class="header-item icon"><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li class="header-item icon"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li class="header-item"><a href="">English</a></li>
+                <li class="header-item"><a href="">My Page</a></li>
+                <li class="header-item"><a href="">Logout</a></li>
+            </ul>
+        </header>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <div class="head-container">
         <div class="head-image">
         <nav class="nav-container">
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
             <div class="nav-logo">
             <img src="images/logo1.svg" alt="home logo">
             <a href="#" class="nav-head">Leadway.org.ng<br>Summit 2022</a>
@@ -24,7 +36,7 @@
             <div class="nav-dir">
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a class="nav_link" href="#">About</a>
+                        <a class="nav_link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav_link" href="#">Program</a>
@@ -37,9 +49,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav_link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav_link" href="#">Campaign</a>
                     </li>
                 </ul>
             </div>
@@ -67,7 +76,7 @@
             </div>
         </section>
         </div>
-    </header>
+    </div>
 
     <!-- main section for the event-->
     <main class="main-container">
@@ -75,49 +84,52 @@
                 
             <div class="main-box">
                 <h1>Main Program</h1>
+                <div class="line"></div>
+                <div class="event-box">
                 <div class="event">
-                    <img src="images/lecture1-vector.png" alt="">
-                    <a href="#">Lecture</a>
-                    <p>Listen to the speakers from 
-                        various countries about the 
-                        messages of sharing and opening
-                        in Agricultural industries start a 
-                        on Agriculture today</p>
+                    <img src="images/program1.png" alt="">
+                    <a href="#">Lecturing</a>
+                    <p>Try creating your own work using opening
+                        source license rather than just watching.
+                        Agricullture has been saving life since 1800.
+                        Start a project on Agriculture today!</p>
                 </div>
                 <div class="event">
-                    <img src="images/toilet1-vector.png" alt="">
+                    <img src="images/program2.png" alt="">
                     <a href="#">Exhibition</a>
-                    <p>Appreciate various creations 
-                        applying Leadway license of 
-                        artists, organized from international 
-                        Conference Center (ICC). Nigeria</p>
+                    <p>Try creating your own work using opening
+                        source license rather than just watching.
+                        Agricullture has been saving life since 1800.
+                        Start a project on Agriculture today!</p>
                 </div>
                 <div class="event">
-                    <img src="images/forum1-vector.png" alt="">
-                    <a href="#">Forum</a>
-                    <p>Have the time to share your thought 
-                        and opinion with experts for each topic
-                        about best practices in Agricultural production
-                        start a on Agriculture today</p>
+                    <img src="images/program3.png" alt="">
+                    <a href="#">Forum-talk</a>
+                    <p>Try creating your own work using opening
+                        source license rather than just watching.
+                        Agricullture has been saving life since 1800.
+                        Start a project on Agriculture today!</p>
                 </div>
                 <div class="event">
-                    <img src="images/workshop2-vector.png" alt="">
+                    <img src="images/program4.png" alt="">
                     <a href="#">Workshop</a>
                     <p>Try creating your own work using opening
                         source license rather than just watching.
+                        Agricullture has been saving life since 1800.
                         Start a project on Agriculture today!
                     </p>
                 </div>
                 <div class="event">
-                    <img src="images/cage1-vector.png" alt="">
-                    <a href="#">BirdCage</a>
-                    <p>Get opportunities to network with Leadway
-                        affiliates around the world today, and
-                        also after the summit..
-                        Start a project on Agriculture today!!
-                    </p>
+                    <img src="images/program5.png" alt="">
+                    <a href="#">Discussion</a>
+                    <p>Try creating your own work using opening
+                        source license rather than just watching.
+                        Agricullture has been saving life since 1800.
+                        Start a project on Agriculture today!</p>
                 </div>
-                <button type="submit" class="join">Join Leadway Summit 2022</button>
+            </div>
+                <a href="#" class="come">See the whole program</a>
+                <button type="submit" class="join">Join Summit 2022</button>
             </div>
         </div>
     </main>
@@ -125,15 +137,18 @@
     <!-- about the speaker session -->
 
     <section class="about-cont">
+        <h1 class="speak-head">Featured Speakers</h1>
+        <div class="line3"></div>
         <div class="about-head">
             <div class="about-box">
-                <h1 class="speak-head">Featured Speakers</h1>
                 <div class="speaker">
-                    <img src="images/Benkler.jpg" alt="">
+                    <div class="image">
+                    <img src="images/image-1.png" alt="">
+                    </div>
                     <div class="speak">
                     <h2>Yochai Benkler</h2>
-                    <p><em>Berkman Professor of Enterpreneurial Legal Studies
-                        at Harvard Law School</em></p>
+                    <p><em>Berkman Professor of Enterpreneurial Legal Studies</em></p>
+                    <div class="line2"></div>
                     <p>Benkler studies commons-based peer production, and 
                         published his seminal book The Wealth of Network in 
                         2016</p>
@@ -141,69 +156,117 @@
                 </div>
 
                 <div class="speaker">
-                    <img src="images/Sohyoeng.jpg" alt="">
+                    <div class="image">
+                    <img src="images/image-3.png" alt="">
+                    </div>
                     <div class="speak">
                     <h2>SohYeong Noh</h2>
                     <p><em>Director of Art Centre Nabi and a board member of CC Korea</em></p>
+                    <div class="line2"></div>
                     <p>As the main venue for new media art production in 
-                        Korea, Nabi promotes cross-disciplinary collaboration
-                        and understanding among science technology, humanity,
-                        and the arts.</p>
+                        Korea, Nabi promotes cross-disciplinary collaboration</p>
                     </div>
                 </div>
 
                 <div class="speaker">
-                    <img src="images/lila.jpg" alt="">
+                    <div class="image">
+                    <img src="images/image-5.png" alt="">
+                    </div>
                     <div class="speak">
                     <h2>Lila Tretikov</h2>
                     <p><em>Executive Director of the Wikimedia Foundation</em></p>
+                    <div class="line2"></div>
                     <p>Lila Tretikov is the Executive Director of the Wikimedia
-                        Foundation, the nonprofit organization that operates 
-                        Wikipedia. Wikipedia is freely available in 290
-                        languages and used by nearly half a billion people
-                        around the world every month</p>
+                        Foundation, the organization that operates 
+                        Wikipedia.</p>
                     </div>
                 </div>
             </div>
 
             <div class="about-box1">
                 <div class="speaker">
-                    <img src="images/Kilnam1.jpg" alt="">
+                    <div class="image">
+                    <img src="images/image-2.png" alt="">
+                    </div>
                     <div class="speak">
                     <h2>Kilman Chon</h2>
+                    <div class="line2"></div>
                     <p>Kilman Chon helped bring the Internet to Asia and
                         he is an outspoken advocate for the open web and 
                         digital commons in 2012, he was inducted into the 
-                        inaugural class of the Internet Society (ISOC)
-                        Internet Hall of Fame</p>
+                        inaugural class of the Internet</p>
                     </div>
                 </div>
 
                 <div class="speaker">
-                    <img src="images/Julia.jpg" alt="pic">
+                    <div class="image">
+                    <img src="images/image-4.png" alt="pic">
+                    </div>
                     <div class="speak">
                     <h2>Julia Leda</h2>
                     <p><em>President of Young Pirates of Europe</em></p>
+                    <div class="line2"></div>
                     <p>European ingetration, political democracy and
                         participation of youth through online as her major
-                        condern, Reda's report outlining potential changes to 
-                        EU copyright law was approved by the Parliament in July</p>
+                        condern, Reda's report outlining potentials</p>
                     </div>
                 </div>
 
                 <div class="speaker">
-                    <img src="images/ryan-dyrud.jpg" alt="pic">
+                    <div class="image">
+                    <img src="images/image-6.png" alt="pic">
+                    </div>
                     <div class="speak">
                     <h2>Ryan Dyrud</h2>
-                    <p><em>Berkman Professor of Enterpreneurial Legal Studies
-                        at Harvard Law School</em></p>
+                    <p><em>Berkman Professor of Enterpreneurial Legal Studies</em></p>
+                    <div class="line2"></div>
                     <p>Benkler studies commons-based peer production, and 
                         published his seminal book The Wealth of Network in 
                         2016</p>
                     </div>
                 </div>
             </div>
+            <button type="submit" class="btn">MORE 
+                <img src="images/Union.jpg" alt="direction" id="dir">
+            </button>
         </div>
     </section>
+
+
+<!-- partner section start -->
+    <section>
+        <div class="foot-cont">
+            <div class="foot-head">
+                <h1>Partners</h1>
+                    <div class="line3"></div>
+                <div class="foot-box">
+                    <img src="images/partner1.png" alt="" class="part">
+                    <img src="images/partner2.png" alt="" class="part">
+                    <img src="images/ps-logo.png" alt="" class="part">
+                    <img src="images/partner3.png" alt="" class="part">
+                    <img src="images/xbox-logo.png" alt="" class="part">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- partner section ends -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer-cont">
+          <div class="footer-box">
+            <img src="images/logo1.svg" alt="footer logo"/>
+            <p>GreenHome Leadway Summit 2022.</p>
+          </div>
+  
+          <div class="footer-text">
+            <p>@ 2022 GreenHome Leadway summit some right reserved
+            </p>
+          </div>
+        </div>
+      </footer>
+<!-- footer ends -->
+
+    <script src="script.js"></script>
 </body>
 </html>
