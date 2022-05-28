@@ -33,7 +33,7 @@ const featSpeaker = [
     name: 'SohYeong Noh',
     Image: 'images/image-3.png',
     title: 'Director of Art Centre Nabi and a board member of CC Korea',
-    desc: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration'
+    desc: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration',
   },
   {
     name: 'Lila Tretikov',
@@ -61,7 +61,7 @@ const featSpeaker = [
   },
 ];
 
-const workpage = document.querySelector('#speakers');
+const speakers = document.querySelector('#speakers');
 for (let i = 0; i < featSpeaker.length; i += 1) {
   speakers.innerHTML += `
             <div class="about-box">
