@@ -64,6 +64,7 @@ const featSpeaker = [
 const speakers = document.querySelector('#speakers');
 for (let i = 0; i < featSpeaker.length; i += 1) {
   speakers.innerHTML += `
+          <div class="about-dir">
             <div class="about-box">
                 <div class="speaker">
                     <div class="image">
@@ -75,8 +76,10 @@ for (let i = 0; i < featSpeaker.length; i += 1) {
                     <div class="line2"></div>
                     <p>${featSpeaker[i].desc}</p>
                     </div>
+                    </div>
                 </div>
-            </div>
-            </div>
+              </div>
+          </div>
+
   `;
 }

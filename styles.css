@@ -356,9 +356,10 @@ p.para2 {
   flex-direction: row;
 }
 
-.about-box1 {
+.about-dir {
   padding-left: 8px;
-  display: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .speak-head {
@@ -875,9 +876,10 @@ DESKTOP VERSION
     align-self: center;
   }
 
-  .about-box1 {
+  .about-dir {
     width: 50%;
-    display: none;
+    display: flex;
+    flex-direction: column;
     padding: 20px 30px;
   }
 
