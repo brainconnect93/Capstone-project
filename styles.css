@@ -346,7 +346,7 @@ p.para2 {
 /* about speakers styling section */
 
 .about-head {
-  margin-top: 70px;
+  /* margin-top: 70px; */
   margin-bottom: 10px;
 }
 
@@ -375,9 +375,9 @@ p.para2 {
 .speaker {
   display: flex;
   flex-direction: row;
-  margin: 30px 10px;
+  margin: 0 10px;
   padding: 10px 10px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .speaker img {
@@ -861,7 +861,7 @@ DESKTOP VERSION
   }
 
   .about-head {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -869,7 +869,7 @@ DESKTOP VERSION
   }
 
   .about-box {
-    width: 50%;
+    width: 100%;
     padding: 20px 30px;
     display: flex;
     flex-direction: row;
@@ -877,7 +877,7 @@ DESKTOP VERSION
   }
 
   .about-dir {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px 30px;
