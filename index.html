@@ -33,21 +33,21 @@
             </div>
             
             <div class="nav-dir">
-                <ul class="nav-menu">
+                <ul class="nav-menu hide">
                     <li class="nav-item">
                         <a class="nav_link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav_link" href="#">Program</a>
+                        <a class="nav_link" href="#program">Program</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav_link" href="#">Join</a>
+                        <a class="nav_link" href="#join">Join</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav_link" href="#">Sponsor</a>
+                        <a class="nav_link" href="#sponsors">Sponsors</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav_link" href="#">News</a>
+                        <a class="nav_link" href="#news">News</a>
                     </li>
                 </ul>
             </div>
@@ -78,7 +78,7 @@
     </div>
 
     <!-- main section for the event-->
-    <main class="main-container">
+    <main class="main-container" id="program">
         <div class="main-head">
                 
             <div class="main-box">
@@ -133,13 +133,13 @@
         </div>
     </main>
 
-    <!-- about the speaker session -->
+    <!-- about the speaker session making it dynamic using js-->
 
-    <section class="about-cont">
+    <section class="about-cont" id="join">
         <h1 class="speak-head">Featured Speakers</h1>
         <div class="line3"></div>
-        <div class="about-head">
-            <div class="about-box">
+        <div class="about-head" id="speakers" >
+            <!-- <div class="about-box">
                 <div class="speaker">
                     <div class="image">
                     <img src="images/image-1.png" alt="">
@@ -166,7 +166,10 @@
                         Korea, Nabi promotes cross-disciplinary collaboration</p>
                     </div>
                 </div>
+            </div>
 
+
+            <div class="about-box">
                 <div class="speaker">
                     <div class="image">
                     <img src="images/image-5.png" alt="">
@@ -180,9 +183,8 @@
                         Wikipedia.</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="about-box1">
+            
                 <div class="speaker">
                     <div class="image">
                     <img src="images/image-2.png" alt="">
@@ -196,7 +198,9 @@
                         inaugural class of the Internet</p>
                     </div>
                 </div>
+            </div>
 
+            <div class="about-box">
                 <div class="speaker">
                     <div class="image">
                     <img src="images/image-4.png" alt="pic">
@@ -224,16 +228,17 @@
                         2016</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
+        </div>
             <button type="submit" class="btn">MORE 
                 <img src="images/Union.jpg" alt="direction" id="dir">
             </button>
-        </div>
+        
     </section>
 
 
 <!-- partner section start -->
-    <section>
+    <section id="sponsors">
         <div class="foot-cont">
             <div class="foot-head">
                 <h1>Partners</h1>
@@ -251,7 +256,7 @@
     <!-- partner section ends -->
 
     <!-- footer start -->
-    <footer class="footer">
+    <footer class="footer" id="news">
         <div class="footer-cont">
           <div class="footer-box">
             <img src="images/logo1.svg" alt="footer logo"/>
