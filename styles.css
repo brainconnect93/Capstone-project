@@ -817,7 +817,7 @@ DESKTOP VERSION
 
   .event:hover {
     border: 3px solid #fff;
-    transition: 0.5s all ease-in-out;
+    transition: 2s all ease-out;
     box-shadow:
       0 5px 10px rgba(222, 222, 222, 0.82),
       0 5px 10px rgba(222, 222, 222, 0.82),
