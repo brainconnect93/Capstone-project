@@ -208,18 +208,20 @@ p.para {
 }
 
 h1.head {
-  background-image: url(images/oreclor.jpg);
+  background-image: url(images/festival.jpg);
   font-family: 'Lato', sans-serif;
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
-  background-repeat: no-repeat;
+  letter-spacing: 1.5px;
+  background-repeat: repeat;
   -webkit-text-fill-color: rgb(0 0 0 / 0%);
   -webkit-background-clip: text;
   background-position: 20% 20%;
-  background-size: cover;
+  background-size: 100%;
   color: transparent;
   max-width: 900px;
   align-self: center;
+  line-height: 0.95;
 }
 
 .text {
@@ -774,7 +776,7 @@ DESKTOP VERSION
   }
 
   h1.head {
-    font-size: 3rem;
+    font-size: 4.5rem;
   }
 
   .text {

@@ -1,3 +1,6 @@
+[![](https://img.shields.io/badge/Microverse-Afolabi%20Akorede-blueviolet)](https://github.com/brainconnect93)
+
+
 # LEADWAY COMMONS GLOBAL SUMMIT (Capstone-Project )
 
 > This project is about leadway common summit which bring agricultural expertise around the wotld together for a conference. It was founded in 2017 , the program was held in Nigeria in the year 2022.
