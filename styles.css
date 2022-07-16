@@ -256,7 +256,9 @@ p.para2 {
 /* the main program styling */
 
 .main-head {
-  background: #000;
+  background-image: url(./images/abstractbg.svg);
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 1;
   color: #fff;
   width: 100%;
   height: auto;
