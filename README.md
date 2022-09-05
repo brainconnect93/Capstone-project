@@ -8,6 +8,16 @@
 
 This project is a part of my Microverse curriculum. This is made as Final Project (Capstone), of 1st Module at Microverse in order to attract job opportunities. The main objective is to develop a professional website which showcase my professional skills and also will meet the requirements of a client and be able to meet deadlines.
 
+### LEADWAY COMMONS SUMMIT SCREENSHOT
+
+>![lead](https://user-images.githubusercontent.com/78634841/188432836-a477a847-6515-4a33-8ac5-9ae930ad0547.png)
+![lead1](https://user-images.githubusercontent.com/78634841/188432853-d6568147-e5b1-4628-ab10-78348c7b78fe.png)
+![lead2](https://user-images.githubusercontent.com/78634841/188432893-df4579e4-2047-40b0-8021-8020c8e93e88.png)
+![lead3](https://user-images.githubusercontent.com/78634841/188432931-9122a399-1867-43c6-af71-756b5207fc72.png)
+![lead4](https://user-images.githubusercontent.com/78634841/188432948-dc5c02df-f949-4d9d-af4a-107489de9fd7.png)
+![lead5](https://user-images.githubusercontent.com/78634841/188433049-93a045a6-b4a5-46f1-a4c7-3137beff331e.png)
+
+
 ## Live
 [Go live with me using this link](https://www.loom.com/share/aafc27401a3d49e886d5f814fa74d449)
 
