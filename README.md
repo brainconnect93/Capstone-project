@@ -11,6 +11,9 @@ This project is a part of my Microverse curriculum. This is made as Final Projec
 ## Live
 [Go live with me using this link](https://www.loom.com/share/aafc27401a3d49e886d5f814fa74d449)
 
+## Live Link 
+[Live link](https://brainconnect93.github.io/Capstone-project/)
+
 ## Built With
 
 - Html/CSS
