@@ -9,7 +9,7 @@
 This project is a part of my Microverse curriculum. This is made as Final Project (Capstone), of 1st Module at Microverse in order to attract job opportunities. The main objective is to develop a professional website which showcase my professional skills and also will meet the requirements of a client and be able to meet deadlines.
 
 ## Live
-Go live with me using this link [(https://www.loom.com/share/aafc27401a3d49e886d5f814fa74d449)]
+[Go live with me using this link](https://www.loom.com/share/aafc27401a3d49e886d5f814fa74d449)
 
 ## Built With
 
