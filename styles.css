@@ -432,12 +432,16 @@ em {
   border-radius: 0;
 }
 
-#dir {
+/* #dir {
   margin: 0 14px;
   align-items: center;
   width: 20px;
   height: 10px;
 }
+
+#dir:hover {
+  background-color: #63666d;
+} */
 
 .foot-cont {
   background-color: #272a31;

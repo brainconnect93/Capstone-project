@@ -66,7 +66,7 @@ for (let i = 0; i < featSpeaker.length; i += 1) {
   speakers.innerHTML += `
           <div class="about-dir">
             <div class="about-box">
-                <div class="speaker">
+                <div class="speaker" id="demo">
                     <div class="image">
                         <img src="${featSpeaker[i].Image}" alt="speaker-image">
                     </div>
@@ -77,6 +77,7 @@ for (let i = 0; i < featSpeaker.length; i += 1) {
                     <p>${featSpeaker[i].desc}</p>
                     </div>
                     </div>
+                </div>
                 </div>
               </div>
           </div>
