@@ -64,23 +64,22 @@ const featSpeaker = [
 const speakers = document.querySelector('#speakers');
 for (let i = 0; i < featSpeaker.length; i += 1) {
   speakers.innerHTML += `
-          <div class="about-dir">
+          <div class="about-dir" id="demo">
             <div class="about-box">
-                <div class="speaker" id="demo">
-                    <div class="image">
-                        <img src="${featSpeaker[i].Image}" alt="speaker-image">
-                    </div>
-                    <div class="speak">
-                    <h2>${featSpeaker[i].name}</h2>
-                    <p><em>${featSpeaker[i].title}</em></p>
-                    <div class="line2"></div>
-                    <p>${featSpeaker[i].desc}</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
+              <div class="speaker">
+                  <div class="image">
+                    <img src="${featSpeaker[i].Image}" alt="speaker-image">
+                  </div>
+                  <div class="speak">
+                  <h2>${featSpeaker[i].name}</h2>
+                  <p><em>${featSpeaker[i].title}</em></p>
+                  <div class="line2"></div>
+                  <p>${featSpeaker[i].desc}</p>
+                  </div>
               </div>
+            </div>
           </div>
 
   `;
 }
+

@@ -365,6 +365,10 @@ p.para2 {
   flex-direction: column;
 }
 
+.about-dir:nth-child(even) {
+  display: none;
+}
+
 .speak-head {
   width: 100%;
   text-align: center;
@@ -889,6 +893,10 @@ DESKTOP VERSION
     display: flex;
     flex-direction: column;
     padding: 20px 30px;
+  }
+
+  .about-dir:nth-child(even) {
+    display: flex;
   }
 
   .image {
