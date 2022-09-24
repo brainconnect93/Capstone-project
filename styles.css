@@ -365,7 +365,7 @@ p.para2 {
   flex-direction: column;
 }
 
-.about-dir:nth-child(even) {
+#demo:nth-child(even) {
   display: none;
 }
 
@@ -895,7 +895,7 @@ DESKTOP VERSION
     padding: 20px 30px;
   }
 
-  .about-dir:nth-child(even) {
+  #demo:nth-child(even) {
     display: flex;
   }
 
