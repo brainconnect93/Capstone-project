@@ -1,9 +1,18 @@
+[![](https://img.shields.io/badge/Microverse-Afolabi%20Akorede-blueviolet)](https://github.com/brainconnect93)
+
+
 # LEADWAY COMMONS GLOBAL SUMMIT (Capstone-Project )
 
 > This project is about leadway common summit which bring agricultural expertise around the wotld together for a conference. It was founded in 2017 , the program was held in Nigeria in the year 2022.
 
 
 This project is a part of my Microverse curriculum. This is made as Final Project (Capstone), of 1st Module at Microverse in order to attract job opportunities. The main objective is to develop a professional website which showcase my professional skills and also will meet the requirements of a client and be able to meet deadlines.
+
+### LEADWAY COMMONS SUMMIT SCREENSHOT
+
+>![lead](https://user-images.githubusercontent.com/78634841/188432836-a477a847-6515-4a33-8ac5-9ae930ad0547.png)
+![lead1](https://user-images.githubusercontent.com/78634841/188432853-d6568147-e5b1-4628-ab10-78348c7b78fe.png)
+
 
 ## Live
 [Go live with me using this link](https://www.loom.com/share/aafc27401a3d49e886d5f814fa74d449)
@@ -20,19 +29,29 @@ This project is a part of my Microverse curriculum. This is made as Final Projec
 - ESlint
 
 ## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-To get a local copy of this project:
+### Prerequisites
+```
+node js
+npm
+```
 
+### Setup
 Clone this repository or download the Zip folder:
-https://github.com/brainconnect93/Capstone-project.git
+```
+$ git clone https://github.com/brainconnect93/Capstone-project.git
+$ cd Capstone-project
+```
+
+### Install
+Install all project dependencies by running the command below
+```
+$ npm install
+```
 
 ## Test
 To track linter errors locally follow these steps:  
-
-Download all the dependencies run:
-```
-npm install
-```
 Track HTML linter errors run:
 ```
 npx hint .
@@ -43,7 +62,7 @@ npx stylelint "**/*.{css,scss}"
 ```
 Track JavaScript linter errors run:
 ```
-npx eslint ."
+npx eslint .
 ```
 
 ## Author

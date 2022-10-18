@@ -208,18 +208,20 @@ p.para {
 }
 
 h1.head {
-  background-image: url(images/oreclor.jpg);
+  background-image: url(images/festival.jpg);
   font-family: 'Lato', sans-serif;
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
-  background-repeat: no-repeat;
+  letter-spacing: 1.5px;
+  background-repeat: repeat;
   -webkit-text-fill-color: rgb(0 0 0 / 0%);
   -webkit-background-clip: text;
   background-position: 20% 20%;
-  background-size: cover;
+  background-size: 100%;
   color: transparent;
   max-width: 900px;
   align-self: center;
+  line-height: 0.95;
 }
 
 .text {
@@ -254,7 +256,9 @@ p.para2 {
 /* the main program styling */
 
 .main-head {
-  background: #000;
+  background-image: url(./images/abstractbg.svg);
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 1;
   color: #fff;
   width: 100%;
   height: auto;
@@ -361,6 +365,10 @@ p.para2 {
   flex-direction: column;
 }
 
+.about-dir:nth-child(even) {
+  display: none;
+}
+
 .speak-head {
   width: 100%;
   text-align: center;
@@ -428,12 +436,16 @@ em {
   border-radius: 0;
 }
 
-#dir {
+/* #dir {
   margin: 0 14px;
   align-items: center;
   width: 20px;
   height: 10px;
 }
+
+#dir:hover {
+  background-color: #63666d;
+} */
 
 .foot-cont {
   background-color: #272a31;
@@ -774,7 +786,7 @@ DESKTOP VERSION
   }
 
   h1.head {
-    font-size: 3rem;
+    font-size: 4.5rem;
   }
 
   .text {
@@ -817,7 +829,7 @@ DESKTOP VERSION
 
   .event:hover {
     border: 3px solid #fff;
-    transition: 0.5s all ease-in-out;
+    transition: 2s all ease-out;
     box-shadow:
       0 5px 10px rgba(222, 222, 222, 0.82),
       0 5px 10px rgba(222, 222, 222, 0.82),
@@ -840,6 +852,10 @@ DESKTOP VERSION
     text-decoration: underline;
   }
 
+  .come:hover {
+    color: #008000;
+  }
+
   .join {
     display: none;
   }
@@ -859,9 +875,9 @@ DESKTOP VERSION
   }
 
   .about-head {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
   }
@@ -869,8 +885,6 @@ DESKTOP VERSION
   .about-box {
     width: 100%;
     padding: 20px 30px;
-    display: flex;
-    flex-direction: row;
     align-self: center;
   }
 
@@ -879,6 +893,10 @@ DESKTOP VERSION
     display: flex;
     flex-direction: column;
     padding: 20px 30px;
+  }
+
+  .about-dir:nth-child(even) {
+    display: flex;
   }
 
   .image {
