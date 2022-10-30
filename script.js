@@ -81,6 +81,5 @@ for (let i = 0; i < featSpeaker.length; i += 1) {
               </div>
             </div>
           </div>
-
   `;
 }
